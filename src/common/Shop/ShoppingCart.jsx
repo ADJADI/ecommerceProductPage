@@ -39,7 +39,7 @@ export default function ShoppingCart() {
       </button>
       {isOpen && (
         <div className="shadow-xl">
-          <div className="w-full h-[290px] flex flex-col top-16 absolute left-0 z-40 p-2 text-lg md:w-[400px] md:-right-10 md:left-auto">
+          <div className="w-full h-[290px] flex flex-col top-16 absolute left-0 z-40 p-2 text-lg md:w-[400px] md:right-0 md:left-auto">
             <div className="w-full items-center bg-white rounded-t-xl">
               <span className="border-b h-16 flex items-center pl-5 font-semibold ">
                 <h2 className="">Cart</h2>

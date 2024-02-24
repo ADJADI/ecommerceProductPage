@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { Router, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Navbar from "./common/Nav/Navbar";
 import Collection from "./components/Pages/Collection";
 import Men from "./components/Pages/Men";
