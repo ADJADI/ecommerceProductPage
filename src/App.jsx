@@ -10,16 +10,16 @@ import About from "./components/Pages/About";
 import Main from "./components/home/Main";
 
 function App() {
-  const [isclicked, setIsClicked] = useState(false);
+  const [isClicked, setIsClicked] = useState(true);
 
   const toggleNavLink = () => {
-    setIsClicked(!isclicked);
+    setIsClicked(!isClicked);
   };
 
   return (
     <div className="xl:px-32 cursor-pointer">
       <Navbar />
-      {isclicked ? <Main /> : ""}
+      {isClicked ? "" : <Main />}
       <Routes>
         <Route path={"/Main"} element={<Main />} onClick={toggleNavLink} />
         <Route
