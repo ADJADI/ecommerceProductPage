@@ -14,6 +14,7 @@ function App() {
     <div className="xl:px-32 cursor-pointer">
       <Navbar />
       <Routes>
+        <Route path={"/"} />
         <Route path={"/Main"} element={<Main />} />
         <Route path={"/Collection"} element={<Collection />} />
         <Route path={"/Men"} element={<Men />} />
