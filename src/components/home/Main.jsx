@@ -1,10 +1,8 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import MainData from "./MainData";
 import ProductMobile from "../Product/ProductMobile";
 import ProductDesktop from "../Product/ProductDesktop";
 import ProductCard from "../Product/ProductCard";
-import minus from "../../assets/images/icon-minus.svg";
-import plus from "../..//assets/images/icon-plus.svg";
 
 export default function Main() {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);

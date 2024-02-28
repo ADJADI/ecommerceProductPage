@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import hamburger from "../../assets/images/icon-menu.svg";
 import close from "../../assets/images/icon-close.svg";
@@ -23,7 +23,7 @@ export default function Navbar() {
           <img src={hamburger} alt="" />
         </button>
         <h1 className="font-bold text-xl xs:text-3xl">
-          <Link onClick={closeMenu} to="/Main">
+          <Link onClick={closeMenu} to="/">
             sneakers
           </Link>
         </h1>
